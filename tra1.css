@@ -1,0 +1,483 @@
+.anita{
+         max-width: 100%;
+         height:20%;}
+ .div34 {
+background: #CEE3F6;
+height: 70PX; }
+.boton_personalizado{
+    text-decoration: solid;
+    text-emphasis-style: double-circle;
+    padding: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+    background-color: #FF0000;
+    border-radius: 5px;
+    border: 0px solid #0016b0;
+    position: absolute;
+    left: 18%;
+  
+  }
+  .boton_personalizado1{
+    text-decoration: solid;
+    text-emphasis-style: double-circle;
+    padding: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+    background-color:#FF0000;
+    border-radius: 5px;
+    border: 0px solid #0016b0;
+    position: absolute;
+    left: 38%;
+
+    
+  }
+  .boton_personalizado2{
+    text-decoration: solid;
+    text-emphasis-style: double-circle;
+    padding: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+    background-color: #FF0000;
+    border-radius: 5px;
+    border: 0px solid #0016b0;
+    position: absolute;
+    left: 53%;
+    
+  }
+  .boton_personalizado3{
+    text-decoration: solid;
+    text-emphasis-style: double-circle;
+    padding: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+    background-color: #FF0000;
+    border-radius: 5px;
+    border: 0px solid #0016b0;
+    position: absolute;
+    left: 68%;
+    
+  }
+.cuadro21 {
+position: relative;
+top: 70%;
+left: 20%;
+width: 60%;
+height: 260%;
+background: #CEE3F6;
+border-radius : 5px;
+}
+.Jaja{
+position: absolute;
+top: 190px;
+left: 500px;
+z-index: 10;
+}
+.Jaja1{
+position: absolute;
+top: 515px;
+left: 1150px;
+z-index: 10;
+font-size:15px;
+}
+.Jaja2{
+position: absolute;
+top: 550px;
+left: 1150px;
+z-index: 10;
+font-size:15px;
+}
+.yo{
+    position: absolute;
+    top: 170px;
+    left: 10px;
+    height:300px;
+    width: 300px;
+    z-index: 30;
+    background-image: url("santiago3.png"); 
+}
+.que{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height:657px;
+    width: 1366px;
+    background:linear-gradient(to bottom, #F45BCA 5%, #CB1D1D 100%);
+}
+.que1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height:657px;
+    width: 1366px;
+    background:#0080FF
+}
+.que2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height:657px;
+    width: 1366px;
+    background:#0080FF
+}
+.que3{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height:657px;
+    width: 1366px;
+    background:#0080FF
+}
+.que4{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height:657px;
+    width: 1366px;
+    background:#0080FF
+}
+.Jajap1{
+position: absolute;
+top: 15px;
+left: 32%;
+font-size:40px;
+z-index: 10;
+}
+
+.logo{
+    position: absolute;
+    top: 375px;
+    left: 1170px;
+    height:150px;
+    width: 150px;
+    z-index: 30;
+    background-image: url(logocole.png);
+}
+
+
+.a{
+    position: absolute;
+    top: 20px;
+    left: -20px;
+    width: 150px;
+    height: 200px;
+    background-image: url(B.png);
+    animation: prueba;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+.a2{
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    width: 140px;
+    height: 200px;
+    background-image: url(B.png);
+}
+
+@keyframes prueba {
+    20%{top: -5px; left: -15px;}
+    40%{top: 15px; left: -5px;}
+    60%{top: 5px; left: 0px;}
+    80%{top: 10px; left: 5px;}
+    100%{top: 20px; left: 20px;}
+}
+.b{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 155px;
+    height: 200px;
+    background-image: url(i.png);
+    animation: prueba1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+.b2{
+    position: absolute;
+    top: 20px;
+    left: 240px;
+    width: 155px;
+    height: 200px;
+    background-image: url(i.png);
+}
+
+@keyframes prueba1 {
+    20%{top: -5px; left: 30px;}
+    40%{top: 15px; left: 40px;}
+    60%{top: 5px; left: 50px;}
+    80%{top: 10px; left: 60px;}
+    100%{top: 20px; left: 130px;}
+}
+
+.c{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 150px;
+    height: 200px;
+    background-image: url(e.png);
+    animation: prueba2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+.c2{
+    position: absolute;
+    top: 20px;
+    left: 300px;
+    width: 150px;
+    height: 200px;
+    background-image: url(e.png);
+}
+
+@keyframes prueba2 {
+    20%{top: -5px; left: 30px;}
+    40%{top: 15px; left: 40px;}
+    60%{top: 5px; left: 50px;}
+    80%{top: 10px; left: 60px;}
+    100%{top: 20px; left: 240px;}
+}
+
+.d{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 155px;
+    height: 200px;
+    background-image: url(n.png);
+    animation: prueba3;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+.d2{
+    position: absolute;
+    top: 20px;
+    left: 400px;
+    width: 155px;
+    height: 200px;
+    background-image: url(n.png);
+}
+
+@keyframes prueba3 {
+    20%{top: -5px; left: 30px;}
+    40%{top: 15px; left: 40px;}
+    60%{top: 5px; left: 50px;}
+    80%{top: 10px; left: 60px;}
+    100%{top: 20px; left: 350px;}
+}
+
+.e{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 150px;
+    height: 200px;
+    background-image: url(v.png);
+    animation: prueba4;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+.e2{
+    position: absolute;
+    top: 20px;
+    left: 500px;
+    width: 150px;
+    height: 200px;
+    background-image: url(v.png);
+}
+
+@keyframes prueba4 {
+    20%{top: -5px; left: 30px;}
+    40%{top: 15px; left: 40px;}
+    60%{top: 5px; left: 50px;}
+    80%{top: 10px; left: 60px;}
+    100%{top: 20px; left: 460px;}
+}
+
+.f{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 150px;
+    height: 200px;
+    background-image: url(e.png);
+    animation: prueba5;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+.f2{
+    position: absolute;
+    top: 20px;
+    left: 600px;
+    width: 150px;
+    height: 200px;
+    background-image: url(e.png);
+}
+
+@keyframes prueba5 {
+    20%{top: -5px; left: 30px;}
+    40%{top: 15px; left: 40px;}
+    60%{top: 5px; left: 50px;}
+    80%{top: 10px; left: 60px;}
+    100%{top: 20px; left: 590px;}
+}
+
+.g{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 200px;
+    height: 200px;
+    background-image: url(n.png);
+    animation: prueba6;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+.g2{
+    position: absolute;
+    top: 20px;
+    left: 700px;
+    width: 200px;
+    height: 200px;
+    background-image: url(n.png);
+}
+
+@keyframes prueba6 {
+    20%{top: -5px; left: 30px;}
+    40%{top: 15px; left: 40px;}
+    60%{top: 5px; left: 50px;}
+    80%{top: 10px; left: 60px;}
+    100%{top: 20px; left: 730px;}
+}
+
+.h{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 120px;
+    height: 200px;
+    background-image: url(i.png);
+    animation: prueba10;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+.h2{
+    position: absolute;
+    top: 20px;
+    left: 800px;
+    width: 125px;
+    height: 200px;
+    background-image: url(i.png);
+}
+
+@keyframes prueba10 {
+    20%{top: -5px; left: 30px;}
+    40%{top: 15px; left: 40px;}
+    60%{top: 5px; left: 50px;}
+    80%{top: 10px; left: 60px;}
+    100%{top: 20px; left: 800px;}
+}
+
+.i{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 200px;
+    height: 200px;
+    background-image: url(d.png);
+    animation: prueba7;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+.i2{
+    position: absolute;
+    top: 20px;
+    left: 860px;
+    width: 200px;
+    height: 200px;
+    background-image: url(d.png);
+}
+
+@keyframes prueba7 {
+    20%{top: -5px; left: 30px;}
+    40%{top: 15px; left: 40px;}
+    60%{top: 5px; left: 50px;}
+    80%{top: 10px; left: 60px;}
+    100%{top: 20px; left: 920px;}
+}
+.j{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 160px;
+    height: 200px;
+    background-image: url(o.png);
+    animation: prueba8;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+.j2{
+    position: absolute;
+    top: 20px;
+    left: 950px;
+    width: 160px;
+    height: 200px;
+    background-image: url(o.png);
+}
+
+@keyframes prueba8 {
+    20%{top: -5px; left: 30px;}
+    40%{top: 15px; left: 40px;}
+    60%{top: 5px; left: 50px;}
+    80%{top: 10px; left: 60px;}
+    100%{top: 20px; left: 980px;}
+}
+.k{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 260px;
+    height: 200px;
+    background-image: url(s.png);
+    animation: prueba9;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+.k2{
+    position: absolute;
+    top: 20px;
+    left: 1050px;
+    width: 260px;
+    height: 200px;
+    background-image: url(s.png);
+}
+
+@keyframes prueba9 {
+    20%{top: -5px; left: 30px;}
+    40%{top: 15px; left: 40px;}
+    60%{top: 5px; left: 50px;}
+    80%{top: 10px; left: 60px;}
+    100%{top: 20px; left: 1100px;}
+}
+.Jajap2{
+position: absolute;
+top: 90px;
+left: 24px;
+font-size:40px;
+z-index: 10;
+}
+.boton_personalizado4{
+    text-decoration: solid;
+    text-emphasis-style: double-circle;
+    padding: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+    background-color:#FF0000;
+    border-radius: 5px;
+    border: 0px solid #0016b0;
+    position: absolute;
+    left: 420px;
