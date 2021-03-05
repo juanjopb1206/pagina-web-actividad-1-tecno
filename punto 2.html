@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>punto-2</title>
+    <script type="text/javascript">
+    var c=11;
+    </script>
+        <style type="text/css">
+        .lola{
+            position: absolute;
+            border:red;
+            height: 40%;
+            width: 40%; 
+            background-color: blue;
+            left: 30%; 
+            top: 22%;
+            border-radius: 100px;
+            font-size: 60px;
+            text-align: center;
+
+        }
+
+
+    </style>
+</head>
+<body onload="inicio()">
+
+<script>
+function inicio(){
+    setTimeout(decre,3000);
+}
+function decre(){
+    cronometro=setInterval(dismi,2000)
+}
+function dismi(){
+    c=c-1;
+    document.getElementById('cuadro').innerHTML=(c);
+    if (c==0) {
+        clearInterval(cronometro);
+        var t=document.getElementById('cuadro').innerHTML=("ya termine")
+    }
+}
+
+</script>
+    <div id="cuadro" class="lola"><br>Hello</div>
+</body>
+</html>
