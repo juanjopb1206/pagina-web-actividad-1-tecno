@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>semana 8</title>
+	<script type="text/javascript">
+		var c=61;
+		var score=0;
+	</script>
+	<style type="text/css">
+		body{
+			background-image: url(fortnite-2.jpg);
+			background-size: 100%,100%;			
+		}
+		.lola{
+			position: absolute;
+            border:red;
+            height: 10%;
+            width: 20%; 
+            background-color: blue;
+            left: 40%; 
+            top: 1%;
+            border-radius: 20px;
+            font-size: 25px;
+            text-align: center;
+		}
+		.holalola{
+			position: absolute;
+            border:red;
+            height: 10%;
+            width: 20%; 
+            background-color: blue;
+            left: 63%; 
+            top: 1%;
+            border-radius: 20px;
+            text-align: center;
+            font-size: 30px;
+		}
+		.f{
+			position: absolute;
+			height:35%;
+            width: 10%; 
+            background-image: url(personajes.jfif);
+            background-size: cover;
+            left: 20%; 
+            top: 20%;
+            transition: 0.1s;
+            border-radius: 15px;
+     
+		}
+		.h{
+			position: absolute;
+			height:625px; 
+			width:1300px;
+			opacity: 0.8;
+			background-color: white;
+			left:125px;
+			top :125px;
+			border-radius: 20px;
+		}
+				.h1{
+			position: absolute;
+			height:625px; 
+			width:1300px;
+			opacity: 0.8;
+			background-color: white;
+			left:125px;
+			top :125px;
+			border-radius: 20px;
+			z-index: 14;
+			display: none;
+		}
+		.puntaje{
+			position: absolute;
+            border:red;
+            height: 10%;
+            width: 20%; 
+            background-color: blue;
+            left: 17%; 
+            top: 1%;
+            border-radius: 20px;
+            font-size: 25px;
+            text-align: center;
+
+		}
+		.jaja{
+			position: absolute;
+			height:625px; 
+			width:1300px;
+			background-color: blue;
+			left:125px;
+			top :122px;
+			border-radius: 20px;
+			font-size: 25px;
+			z-index: 17;
+			text-align: center;
+			
+		}
+		.none{
+			display: none;
+		}
+		.cataño{
+			position: absolute;
+			height:400px; 
+			width:600px;
+			left:470px;
+			top :250px;
+		
+		
+			z-index: 17;
+		}
+		.taño{
+			position: absolute;
+			height:625px; 
+			width:1300px;
+		
+			left:125px;
+			top :170px;
+			border-radius: 20px;
+			font-size: 25px;
+			z-index: 17;
+			text-align: center;
+
+		}
+	</style>
+</head>
+<body onload="inico()">
+	<div class="h" id="h" ></div>
+	<div class="h1" id="h" ></div>
+	<div class="f" id="f" onclick="repe()"></div>
+<div class="puntaje" id="punt">
+	</div>
+	<div class="holalola" id="holalola"></div>
+	<div class="none" id="jaja"></div>
+	<img src="victoria.jpg" class="none" id="cataño">
+
+	<div class="none" id="taño"></div>
+<script>
+	kils=200;
+	muertes=0;
+	setInterval(solo,600);
+	var numx= Math.floor(Math.random()*((1150+125)-125)+125);
+	var numy= Math.floor(Math.random()*((300+125)-125)+125);
+	f.style.left=numx+"px";
+	f.style.top=numy+"px";
+	
+	function repe() {
+	var numx= Math.floor(Math.random()*((1150+125)-125)+125);
+	var numy= Math.floor(Math.random()*((300+125)-125)+125);
+		var size = Math.floor((Math.random()*(4-1))+1);
+		f.style.left=numx+"px";
+		f.style.top=numy+"px";
+		    score=score+20;
+   var d3=document.getElementById('punt');
+   d3.innerHTML="DAÑO: "+score;
+   var ca=document.getElementById("holalola");
+   if (score==kils) {
+   	
+   	muertes=muertes+1;
+   	ca.innerHTML="kils: "+muertes;
+   	kils=kils+200;
+   }
+
+	}
+	function solo(){
+			var numx= Math.floor(Math.random()*((1150+125)-125)+125);
+	var numy= Math.floor(Math.random()*((300+125)-125)+125);
+		var size = Math.floor((Math.random()*(4-1))+1);
+		f.style.left=numx+"px";
+		f.style.top=numy+"px";
+	}
+
+function inico(){
+    setTimeout(decre,1000);
+}
+function decre(){
+    cronometro=setInterval(dismi,1000);
+}
+function dismi(){
+    c=c-1;
+    document.getElementById('cuadro').innerHTML=(c);
+    if (c==0) {
+        clearInterval(cronometro);
+        var t=document.getElementById('cuadro').innerHTML=("termino el juego");
+document.querySelector(".h1").style.display="block";
+var cuadro=document.getElementById("jaja");
+cuadro.className="jaja";
+cuadro.innerHTML="DAÑO QUE HICISTE: "+score;
+var img=document.getElementById("cataño");
+img.className="cataño";
+var taño=document.getElementById("taño");
+taño.className="taño";
+taño.innerHTML="KILS QUE HICISTE: "+muertes;
+
+
+    }
+
+
+}
+
+</script>
+<div id="cuadro" class="lola"><br>empieza el juego</div>
+<audio src="musica.mp3" autoplay="true" loop="true"></audio>
+</body>
+</html>
